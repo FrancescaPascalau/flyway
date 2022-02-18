@@ -14,7 +14,7 @@ public class ContractRepositoryAdapter implements ContractServicePort {
     private final ContractRepository contractRepository;
 
     @Override
-    public void create(ContractDto contractDto) {
+    public void save(ContractDto contractDto) {
         contractRepository.save(ContractMapper.INSTANCE.mapFromDto(contractDto));
     }
 }

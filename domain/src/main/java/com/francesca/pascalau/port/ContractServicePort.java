@@ -4,5 +4,5 @@ import com.francesca.pascalau.model.ContractDto;
 
 public interface ContractServicePort {
 
-    void create(ContractDto contractDto);
+    void save(ContractDto contractDto);
 }

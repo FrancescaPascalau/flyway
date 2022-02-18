@@ -14,7 +14,7 @@ public class CustomerRepositoryAdapter implements CustomerServicePort {
     private final CustomerRepository customerRepository;
 
     @Override
-    public void create(CustomerDto customerDto) {
+    public void save(CustomerDto customerDto) {
         customerRepository.save(CustomerMapper.INSTANCE.mapFromDto(customerDto));
     }
 }

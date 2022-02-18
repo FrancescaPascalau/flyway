@@ -19,7 +19,7 @@ public class ContractService {
                 .customer(customerDto)
                 .build();
 
-        contractService.create(contract);
+        contractService.save(contract);
 
         return contract;
     }

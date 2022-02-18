@@ -18,7 +18,7 @@ public class CustomerService {
                 .lastName("Pascalau")
                 .build();
 
-        customerService.create(customer);
+        customerService.save(customer);
 
         return customer;
     }
