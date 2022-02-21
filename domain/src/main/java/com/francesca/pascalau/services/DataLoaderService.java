@@ -22,8 +22,8 @@ public class DataLoaderService {
     private final ContractServicePort contractServicePort;
     private final CustomerServicePort customerServicePort;
 
-    @PostConstruct
-    @Transactional
+//    @PostConstruct
+//    @Transactional
     public void fillData() {
         var customer1 = CustomerDto.builder()
                 .id(new Random().nextLong())

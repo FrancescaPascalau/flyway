@@ -3,12 +3,11 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/flyway
+    url: jdbc:postgresql://localhost:5432/flyway2
     username: postgres
-    password:
     driver-class-name: org.postgresql.Driver
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
     open-in-view: false

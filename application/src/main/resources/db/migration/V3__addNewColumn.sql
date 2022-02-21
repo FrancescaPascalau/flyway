@@ -1,2 +1,2 @@
 ALTER TABLE customer
-    ADD dob NULL NULL;
+    ADD dob VARCHAR(255) NULL;

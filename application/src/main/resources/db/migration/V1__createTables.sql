@@ -12,8 +12,8 @@ CREATE TABLE contract
     id          char(36) NOT NULL,
     details     VARCHAR(255) NULL,
     customer_id char(36) NULL,
-    created_at  datetime NULL,
-    updated_at  datetime NULL,
+    created_at  timestamp NULL,
+    updated_at  timestamp NULL,
     CONSTRAINT pk_contract PRIMARY KEY (id)
 );
 
